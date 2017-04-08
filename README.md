@@ -43,7 +43,7 @@
 </li>
 </ul>
 </div>
-</p>
+<hr>
 
 <p>These are plain instructions, and intended for someone with basic knowledge of using a server and Linux (specifically Ubuntu 14 x, 64 bit). </p>
 
@@ -123,8 +123,8 @@ BDSM-FETISHd daemon</p>
 <h2 id="21-set-up-swap">2.1. Set up Swap</h2>
 
 <blockquote>
-  <p>dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=2000 <br>
-  mkswap /mnt/myswap.swap <br>
+  <p>dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=2000 <br><br>
+  mkswap /mnt/myswap.swap <br><br>
   swapon /mnt/myswap.swap</p>
 </blockquote>
 
