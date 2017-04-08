@@ -180,6 +180,8 @@ BDSM-FETISHd daemon</p>
   <p>sudo apt-get install -y mongodb-org</p>
 </blockquote>
 
+ <p>Now just leave Mongod alone, you will start it up later.</p>
+
 <hr>
 
 <h1 id="3-compile-dependencies-for-bdsm-fetish">3. Compile Dependencies for BDSM-FETISH</h1>
@@ -187,7 +189,7 @@ BDSM-FETISHd daemon</p>
 <p>There are various you can use, but try this command:</p>
 
 <blockquote>
-  <p>sudo apt-get install ntp unzip build-essential libssl-dev libboost-all-dev libqrencode-dev libdb++-dev libminiupnpc-dev qt-sdk -y</p>
+  <p> sudo apt-get install git build-essential libssl-dev libboost-all-dev libqrencode-dev libdb++-dev libminiupnpc-dev qt-sdk -y</p>
 </blockquote>
 
 <p>It will take a few minutes to unpack</p>
